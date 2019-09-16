@@ -1,0 +1,30 @@
+@import "../../SCSS/colors";
+
+.details {
+  background-color: $third-color;
+  border: none;
+  box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.9);
+  margin-bottom: 10px;
+  margin-top: 10px;
+  opacity: 0.85;
+  color: white;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+.launch {
+  text-decoration: none;
+  color: black;
+
+  button {
+    background-color: $fourth-color;
+    color: white;
+    border: none;
+    opacity: 0.85;
+    box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.9);
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

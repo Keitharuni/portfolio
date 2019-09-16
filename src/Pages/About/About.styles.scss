@@ -1,0 +1,30 @@
+@import "../../SCSS/colors";
+@import "../../SCSS/theme";
+
+.about {
+  @include theme;
+
+  h1 {
+    margin-bottom: -21px;
+    font-family: Notable;
+    font-size: 3rem;
+    letter-spacing: 3px;
+  }
+
+  span {
+    color: $secondary-color;
+    text-shadow: 0.5px 0.5px 0.5px #000;
+  }
+  p {
+    font-family: Lato;
+  }
+}
+.contact {
+  color: gray;
+  text-shadow: 0.5px 0.5px 0.5px #000;
+  font-family: Exo;
+
+  span {
+    color: $secondary-color;
+  }
+}

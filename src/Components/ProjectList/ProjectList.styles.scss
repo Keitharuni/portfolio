@@ -1,0 +1,32 @@
+@import "../../SCSS/theme";
+
+.project-list {
+  @include theme;
+  //   display: flex;
+  // flex-direction: row;
+  //   justify-content: center;
+  //   width: 82vw;
+  //   margin: 60px 10px 0px 210px;
+
+  @media screen and (max-width: 800px) {
+  }
+  .project-header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 10px;
+    h1 {
+      margin-bottom: -10px;
+    }
+    h3 {
+      font-family: Lato;
+      font-weight: lighter;
+    }
+  }
+
+  .project-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}

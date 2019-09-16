@@ -1,0 +1,14 @@
+@mixin theme {
+  font-family: Lato;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 10px;
+  margin-left: 210px;
+  height: 100vh;
+  text-align: left;
+  @media screen and (max-width: 800px) {
+    margin: 0 10px;
+    justify-content: flex-start;
+  }
+}

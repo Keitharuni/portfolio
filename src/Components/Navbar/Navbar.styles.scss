@@ -1,0 +1,67 @@
+@import "../../SCSS/colors";
+
+.navImg {
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  border: 5px solid #1c1c1c;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.2);
+
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  background-color: $secondary-color;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  padding: 0rem 3rem;
+  height: 100%;
+  width: 100px;
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
+}
+
+.navLink {
+  padding: 10px;
+  font-family: Exo;
+  font-weight: bolder;
+  font-size: 20px;
+  color: white;
+  letter-spacing: 2px;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.6);
+  &:hover {
+    color: $third-color;
+  }
+}
+
+.mini-navbar {
+  display: none;
+  @media screen and (max-width: 800px) {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    background-color: $secondary-color;
+  }
+
+  h1 {
+    display: none;
+    @media screen and (max-width: 800px) {
+      display: block;
+      letter-spacing: 2px;
+      color: $primary-light;
+      text-shadow: 2px 2px black;
+    }
+  }
+
+  .burger-comp {
+    @media screen and (max-width: 800px) {
+      margin-top: 20px;
+    }
+  }
+}

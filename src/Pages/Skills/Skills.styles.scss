@@ -1,0 +1,14 @@
+@import "../../SCSS/theme";
+
+.skills {
+  @include theme;
+
+  h1 {
+    margin-bottom: -10px;
+  }
+  h3 {
+    font-family: Lato;
+    font-weight: lighter;
+    letter-spacing: -0.2px;
+  }
+}

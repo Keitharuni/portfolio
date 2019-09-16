@@ -1,0 +1,15 @@
+@import "../../SCSS/theme";
+
+.interests {
+  @include theme;
+  h4 {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: lighter;
+  }
+
+  h5 {
+    font-weight: lighter;
+    color: gray;
+  }
+}
